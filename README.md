@@ -1,2 +1,2 @@
-# Code
-Settings for VSCode and Terminal.
+# Developer
+Developer settings for VSCode and Terminal.
