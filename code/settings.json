@@ -1,0 +1,460 @@
+{
+	"telemetry.telemetryLevel": "off",
+
+	"editor.fontFamily": "Consolas",
+	"editor.minimap.enabled": false,
+	"editor.folding": false,
+	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingQuotes": "never",
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.acceptSuggestionOnCommitCharacter": false,
+
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontFamily": "Consolas",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.fontWeightBold": "normal",
+	"terminal.integrated.fontWeight": "normal",
+	"terminal.integrated.lineHeight": 1.2,
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"terminal.integrated.allowChords": false,
+
+	"debug.console.fontSize": 14,
+	"debug.console.fontFamily": "Consolas",
+	"files.associations":
+	{
+		"*.c": "c",
+		"*.h": "c",
+		"*.cpp": "cpp",
+		"*.hpp": "cpp",
+		"*.rmd": "markdown"
+	},
+
+	"C_Cpp.intelliSenseCachePath": "",
+	"C_Cpp.intelliSenseEngine": "Default",
+	"C_Cpp.enhancedColorization": "Enabled",
+	"C_Cpp.default.cppStandard": "c++11",
+	"C_Cpp.default.cStandard": "c17",
+	"C_Cpp.errorSquiggles": "Disabled",
+
+	"workbench.settings.openDefaultKeybindings": true,
+	"workbench.startupEditor": "none",
+	"workbench.fontAliasing": "auto",
+
+	"workbench.colorCustomizations":
+	{
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiRed": "#FF6A68",
+		"terminal.ansiGreen": "#8BCD6A",
+		"terminal.ansiYellow": "#FCDA49",
+		"terminal.ansiBlue": "#5DA9F0",
+		"terminal.ansiMagenta": "#FF8CFF",
+		"terminal.ansiCyan": "#A4FCFF",
+		"terminal.ansiWhite": "#ffffff",
+
+		"terminal.background": "#0f1014",
+		"panel.border": "#181922",
+		"panel.background": "#181922",
+		"terminal.selectionBackground": "#317abe50",
+
+		"editor.background": "#20212b",
+		"editor.lineHighlightBackground": "#2b2c3b",
+		"editorBracketMatch.background": "#5266918a",
+		"editorBracketMatch.border": "#00000000",
+		"editorLineNumber.activeForeground": "#ffffffe7",
+
+		"scrollbar.shadow": "#00000000",
+
+		"editorSuggestWidget.background": "#181922",
+
+		"statusBar.background": "#000000",
+		"titleBar.activeBackground": "#000000",
+
+		"sideBar.background": "#181922",
+		"sideBarSectionHeader.background": "#20212b",
+		"sideBarSectionHeader.border": "#00000000",
+
+		"list.hoverBackground": "#5a81d65b",
+		"list.activeSelectionBackground": "#317abe50",
+		"list.inactiveSelectionBackground": "#317abe50",
+		"list.focusOutline": "#00000000",
+		"list.inactiveFocusOutline": "#00000000",
+
+        "activityBar.background": "#20212b",
+		"activityBarBadge.background": "#fc4e4e",
+		"activityBar.inactiveForeground": "#acacac",
+		"activityBar.foreground": "#ffffff",
+
+		"editorGroupHeader.tabsBackground": "#181922",
+		"tab.activeBackground": "#20212b",
+		"tab.inactiveBackground": "#181922",
+		"tab.hoverBackground": "#5a81d65b",
+		"tab.border": "#00000000",
+
+		"scrollbarSlider.background": "#3436479d",
+		"scrollbarSlider.hoverBackground": "#5a81d65b",
+		"scrollbarSlider.activeBackground": "#415b944d",
+		"editorOverviewRuler.border": "#00000000",
+
+		"input.background": "#262735",
+		"dropdown.background": "#262735",
+		"settings.textInputBackground": "#262735",
+		"settings.numberInputBackground": "#262735",
+
+		"badge.background": "#ff6a6a",
+		"notifications.background": "#181922",
+		"editorWidget.background": "#181922",
+		"editorWidget.border": "#20212b"
+	},
+
+	//"editor.semanticTokenColorCustomizations": {
+	//	"enabled": true,
+	//	"rules": {
+	//		"type":  "#26A69A",
+	//		"namespace": "#00897B",
+	//		"function": "#00BCD4",
+	//		"variable": "#42A5F5",
+	//		"number": "#90A4AE",
+	//		"string": {
+	//			"foreground": "#90A4AE",
+	//			"italic": true
+	//		},
+	//		"comment": {
+	//			"foreground": "#00BCD4",
+	//			"fontStyle": "italic"
+	//		},
+	//		"variable.readonly.defaultLibrary": "#A89F9B",
+	//		"macro": "#7E57C2",
+	//		"keyword": "#7986CB",
+	//		"operator": "#9575CD",
+	//		"type.modification": "#00897B",
+	//		"punctuation": "#A1887F"
+	//	}
+	//}
+
+	//"editor.semanticTokenColorCustomizations": {},
+
+	"editor.tokenColorCustomizations":
+	{
+		"textMateRules":
+		[
+			{
+				"scope": "comment",
+				"settings":
+				{
+					"foreground": "#b4ecb2"
+				}
+			},
+
+			{
+				"scope": "string.quoted.single",
+				"settings":
+				{
+					//"foreground": "#ff90fd"
+					"foreground": "#ff9292"
+				}
+			},
+
+			{
+				"scope": "string.quoted.double",
+				"settings":
+				{
+					"foreground": "#ff9292"
+				}
+			},
+
+			{
+				"scope": "string.quoted.triple",
+				"settings":
+				{
+					"foreground": "#ff9292"
+				}
+			},
+
+			{
+				"scope": "string.quoted.other",
+				"settings":
+				{
+					"foreground": "#ff90fd"
+				}
+			},
+
+			{
+				"scope": "entity.name.function",
+				"settings":
+				{
+					"foreground": "#fcb58d"
+				}
+			},
+
+			{
+				"scope": "support.function",
+				"settings":
+				{
+					"foreground": "#fcb58d"
+				}
+			},
+
+			{
+				"scope": "meta.function-call.generic.python",
+				"settings":
+				{
+					"foreground": "#fcb58d"
+				}
+			},
+
+			{
+				"scope": "entity.name.function.operator",
+				"settings":
+				{
+					"foreground": "#fcb58d"
+				}
+			},
+
+			{
+				"scope": "meta.preprocessor",
+				"settings":
+				{
+					"foreground": "#ffffff"
+				}
+			},
+
+			 {
+			     "scope": "entity.name.class",
+			     "settings":
+			     {
+			         "foreground": "#ffe46d"
+			     }
+			 },
+
+			{
+				"scope": "entity.name.type",
+				"settings":
+				{
+					"foreground": "#ffe46d"
+				}
+			},
+
+			{
+				"scope": "invalid.deprecated",
+				"settings":
+				{
+					"foreground": "#970000",
+					"fontStyle": "underline",
+				}
+			},
+
+			{
+				"scope": "keyword.control",
+				"settings":
+				{
+					"foreground": "#61AAED"
+				}
+			},
+
+			{
+				"scope": "keyword.other",
+				"settings":
+				{
+					"foreground": "#61AAED"
+				}
+			},
+
+			{
+				"scope": "keyword.operator",
+				"settings":
+				{
+					"foreground": "#9D83D7"
+				}
+			},
+
+			{
+				"scope": "punctuation.accessor",
+				"settings":
+				{
+					"foreground": "#9D83D7"
+				}
+			},
+
+			{
+				"scope": "punctuation.separator",
+				"settings":
+				{
+					"foreground": "#9D83D7"
+				}
+			},
+
+			{
+				"scope": "punctuation.terminator",
+				"settings":
+				{
+					"foreground": "#e2e2e2"
+				}
+			},
+
+			{
+				"scope": "meta.block",   // brackets
+				"settings":
+				{
+					"foreground": "#e2e2e2"
+				}
+			},
+
+			//{
+			//	"scope": "keyword.operator.new",
+			//	"settings":
+			//	{
+			//		"foreground": "#61AAED"
+			//	}
+			//},
+
+			{
+				"scope": "storage.modifier",
+				"settings":
+				{
+					"foreground": "#61AAED"
+				}
+			},
+
+			{
+				"scope": "storage.type",
+				"settings":
+				{
+					"foreground": "#61AAED"
+				}
+			},
+
+			//{
+			//	"scope": "support.type",
+			//	"settings":
+			//	{
+			//		"foreground": "#00c5b5"
+			//	}
+			//},
+
+			//{
+			//	"scope": "support.class",
+			//	"settings":
+			//	{
+			//		"foreground": "#00c5b5"
+			//	}
+			//},
+
+			//{
+			//	"scope": "support.function",
+			//	"settings":
+			//	{
+			//		"foreground": "#ddd49e"
+			//	}
+			//},
+
+			{
+				"scope": "variable",
+				"settings":
+				{
+					"foreground": "#BFC0BF"
+				}
+			},
+
+			{
+				"scope": "variable.other.enummember",
+				"settings":
+				{
+					"foreground": "#6aaf68"
+				}
+			},
+
+			{
+				"scope": "entity.name.function.preprocessor",
+				"settings":
+				{
+					"foreground": "#a1d2ff"
+				}
+			},
+
+			{
+				"scope": "constant.numeric",
+				"settings":
+				{
+					"foreground": "#a4fcff"
+				}
+			},
+
+			{
+				"scope": "constant.character.escape",
+				"settings":
+				{
+					"foreground": "#bb9d84"
+				}
+			},
+		]
+	},
+
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	"debug.allowBreakpointsEverywhere": true,
+	"latex-workshop.view.pdf.viewer": "tab",
+	"explorer.sortOrder": "type",
+	"update.mode": "manual",
+	"C_Cpp.default.intelliSenseMode": "clang-x64",
+	"java.semanticHighlighting.enabled": true,
+	"editor.comments.insertSpace": false,
+	"C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
+	},
+	"editor.insertSpaces": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.trimAutoWhitespace": false,
+	"extensions.ignoreRecommendations": true,
+	"workbench.editor.untitled.hint": "hidden",
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"workbench.editor.closeEmptyGroups": false,
+	"security.workspace.trust.startupPrompt": "never",
+	"security.workspace.trust.untrustedFiles": "open",
+	"material-icon-theme.folders.theme": "classic",
+	"material-icon-theme.folders.color": "#7cb342",
+
+	"latex-workshop.latex.tools": [
+		{
+			"name": "xelatex",
+			"command": "xelatex",
+			"args": ["%DOC%"],
+			"env": {}
+		}
+	],
+
+	"latex-workshop.latex.recipes": [
+		{
+			"name": "xelatex",
+			"tools": ["xelatex"]
+		}
+	],
+	"files.trimTrailingWhitespace": true,
+	"liveshare.presence": true,
+	"[c]": {
+		"editor.wordBasedSuggestions": false,
+		"editor.suggest.insertMode": "replace",
+		"editor.semanticHighlighting.enabled": true
+	},
+	"remote.SSH.foldersSortOrder": "alphabetical",
+	"workbench.panel.opensMaximized": "always",
+	"editor.semanticHighlighting.enabled": true,
+	"window.newWindowDimensions": "offset",
+	"window.openFoldersInNewWindow": "on",
+	"python.defaultInterpreterPath": "/usr/local/bin/python3",
+	"[python]": {
+		"editor.wordBasedSuggestions": false
+	},
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.fontSize": 14,
+	"security.workspace.trust.enabled": false,
+	"scm.inputFontSize": 14,
+	"terminal.integrated.tabs.enabled": false,
+	"editor.guides.indentation": false,
+	"editor.bracketPairColorization.enabled": false,
+	"breadcrumbs.enabled": false
+}
