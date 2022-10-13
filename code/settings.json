@@ -20,6 +20,7 @@
 			{ "scope": "variable", "settings": { "foreground": "#bfc0bf" } },
 			{ "scope": "variable.other.enummember", "settings": { "foreground": "#6aaf68" } },
 			{ "scope": "entity.name.function", "settings": { "foreground": "#fcb58d" } },
+			{ "scope": "meta.function-call.generic.python", "settings": { "foreground": "#fcb58d" } },
 			{ "scope": "entity.name.function.preprocessor", "settings": { "foreground": "#a1d2ff" } },
 			{ "scope": "entity.other.attribute-name.pragma.preprocessor", "settings": { "foreground": "#a1d2ff" } },
 			{ "scope": "meta.preprocessor.macro", "settings": { "foreground": "#bfc0bf" } },
