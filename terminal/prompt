@@ -105,7 +105,7 @@ export PS1_DASH=`ps1_dash`
 export PS1_USER=`ps1_user`
 export PS1_COLON=`ps1_colon`
 export PS1_DIRECTORY=`ps1_directory`
-export PS1_BRANCH=`git_branch`
+export PS1_BRANCH="\`git_branch\`"
 export PS1_TERMINATOR=`ps1_terminator`
 
 export PS1="${PS1_HOSTNAME}${PS1_DASH}${PS1_USER}${PS1_COLON}${PS1_DIRECTORY}${PS1_BRANCH}${PS1_TERMINATOR}"
