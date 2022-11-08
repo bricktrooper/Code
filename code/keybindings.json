@@ -3,56 +3,13 @@
 	{
 		"key": "cmd+e",
 		"command": "workbench.action.togglePanel",
-		 "when": "panelFocus"
+		"when": "panelFocus"
 	},
-
 	{
 		"key": "cmd+e",
 		"command": "workbench.action.togglePanel",
 		"when": "!panelFocus"
 	},
-
-	{
-		"key": "cmd+shift+e",
-		"command": "workbench.action.toggleMaximizedPanel",
-	},
-
-	//{
-	//	"key": "cmd+shift+r",
-	//	"command": "terminalCommandKeys.run",
-	//	"args":
-	//	{
-	//		"cmd": "make clean",
-	//		"newTerminal": false,
-	//		"showTerminal": true,
-	//		"saveAllFiles": true
-	//	}
-	//},
-
-	//{
-	//	"key": "cmd+r",
-	//	"command": "terminalCommandKeys.run",
-	//	"args":
-	//	{
-	//		"cmd": "make",
-	//		"newTerminal": false,
-	//		"showTerminal": true,
-	//		"saveAllFiles": true
-	//	}
-	//},
-
-	// {
-	// 	"key": "cmd+t",
-	// 	"command": "terminalCommandKeys.run",
-	// 	"args":
-	// 	{
-	// 		"cmd": "make run",
-	// 		"newTerminal": false,
-	// 		"showTerminal": true,
-	// 		"saveAllFiles": true
-	// 	}
-	// },
-
 	{
 		"key": "tab",
 		"command": "acceptSelectedSuggestionOnEnter",
@@ -193,7 +150,11 @@
 		"when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
 	},
 	{
-		"key": "shift+cmd+e",
+		"key": "shift+cmd+a",
 		"command": "workbench.files.action.focusFilesExplorer"
+	},
+	{
+		"key": "shift+cmd+e",
+		"command": "workbench.action.focusLastEditorGroup"
 	}
 ]
