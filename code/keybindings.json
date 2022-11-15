@@ -156,5 +156,18 @@
 	{
 		"key": "shift+cmd+e",
 		"command": "workbench.action.focusLastEditorGroup"
+	},
+	{
+		"key": "cmd+l",
+		"command": "workbench.action.switchWindow"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "-workbench.action.switchWindow"
+	},
+	{
+		"key": "cmd+l",
+		"command": "-expandLineSelection",
+		"when": "textInputFocus"
 	}
 ]
