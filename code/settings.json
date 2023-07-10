@@ -489,5 +489,7 @@
 	"editor.guides.indentation": false,
 	"editor.bracketPairColorization.enabled": false,
 	"editor.definitionLinkOpensInPeek": true,
-	"terminal.integrated.tabs.enabled": false
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.inheritEnv": false,
+	"java.inlayHints.parameterNames.enabled": "none",
 }
