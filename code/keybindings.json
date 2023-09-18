@@ -169,5 +169,13 @@
 		"key": "cmd+l",
 		"command": "-expandLineSelection",
 		"when": "textInputFocus"
+	},
+	{
+		"key": "cmd+r",
+		"command": "workbench.action.openRecent"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "-workbench.action.openRecent"
 	}
 ]
