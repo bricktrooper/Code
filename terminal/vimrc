@@ -1,7 +1,8 @@
 syntax on
-colorscheme desert
+colorscheme default
 au FileType gitcommit setlocal tw=72
 set spell spelllang=en_ca
 hi SpellBad ctermfg=255 ctermbg=001
 set tabstop=4
+hi Normal guibg=NONE ctermbg=NONE
 
