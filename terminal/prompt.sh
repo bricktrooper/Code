@@ -17,12 +17,14 @@ export ENABLE_PS1_USER=1
 export ENABLE_PS1_DIRECTORY=1
 export ENABLE_PS1_BRANCH=1
 export ENABLE_PS1_TERMINATOR=1
+export ENABLE_PS1_ARCHITECTURE=1
 
 ps1_hostname()
 {
 	if [[ $ENABLE_PS1_HOSTNAME -eq 1 ]]
 	then
-		echo "${PS1_RESET}(${PS1_GREEN}\h${PS1_RESET})"
+		#echo "${PS1_RESET}(${PS1_GREEN}\h${PS1_RESET})"
+		echo "${PS1_RESET}(${PS1_GREEN}$(arch)${PS1_RESET})"
 	fi
 }
 
