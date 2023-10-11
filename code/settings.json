@@ -94,13 +94,49 @@
                 }
             },
             {
-                "scope": "variable",
+                "scope": "variable.other.local",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.global",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.makefile",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.parameter",
                 "settings": {
                     "foreground": "#bfc0bf"
                 }
             },
             {
                 "scope": "variable.other.constant",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.property",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.object.access",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.member.c",
                 "settings": {
                     "foreground": "#bfc0bf"
                 }
@@ -131,6 +167,12 @@
             },
             {
                 "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#fcb58d"
+                }
+            },
+            {
+                "scope": "entity.name.function.member",
                 "settings": {
                     "foreground": "#fcb58d"
                 }
@@ -430,7 +472,7 @@
         "notifications.background": "#181922",
         "editorWidget.background": "#181922",
         "quickInput.background": "#181922",
-        "editorWidget.border": "#20212b",
+        "editorWidget.border": "#181922",
         "peekViewEditor.background": "#20212b",
         "peekViewTitle.background": "#181922",
         "peekViewResult.background": "#181922"
