@@ -12,19 +12,19 @@ PS1_CYAN="\[\e[0;36m\]"
 PS1_WHITE="\[\e[0;37m\]"
 PS1_RESET="\[\e[0m\]"
 
-export ENABLE_PS1_HOSTNAME=0
-export ENABLE_PS1_USER=1
-export ENABLE_PS1_DIRECTORY=1
-export ENABLE_PS1_BRANCH=1
+export ENABLE_PS1_HOSTNAME=$1
+export ENABLE_PS1_USER=$2
+export ENABLE_PS1_DIRECTORY=$3
+export ENABLE_PS1_BRANCH=$4
 export ENABLE_PS1_TERMINATOR=1
-export ENABLE_PS1_ARCHITECTURE=1
+export ENABLE_PS1_ARCHITECTURE=0
 
 ps1_hostname()
 {
 	if [[ $ENABLE_PS1_HOSTNAME -eq 1 ]]
 	then
-		#echo "${PS1_RESET}(${PS1_GREEN}\h${PS1_RESET})"
-		echo "${PS1_RESET}(${PS1_GREEN}$(arch)${PS1_RESET})"
+		echo "${PS1_RESET}(${PS1_GREEN}\h${PS1_RESET})"
+		#echo "${PS1_RESET}(${PS1_GREEN}$(arch)${PS1_RESET})"
 	fi
 }
 
