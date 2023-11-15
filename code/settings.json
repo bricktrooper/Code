@@ -58,6 +58,12 @@
                 }
             },
             {
+                "scope": "support.function.magic.python",
+                "settings": {
+                    "foreground": "#61aaed"
+                }
+            },
+            {
                 "scope": "storage.type",
                 "settings": {
                     "foreground": "#61aaed"
@@ -94,51 +100,9 @@
                 }
             },
             {
-                "scope": "variable.other.local",
+                "scope": "punctuation.definition.variable.shell",
                 "settings": {
-                    "foreground": "#bfc0bf"
-                }
-            },
-            {
-                "scope": "variable.other.global",
-                "settings": {
-                    "foreground": "#bfc0bf"
-                }
-            },
-            {
-                "scope": "variable.other.makefile",
-                "settings": {
-                    "foreground": "#bfc0bf"
-                }
-            },
-            {
-                "scope": "variable.parameter",
-                "settings": {
-                    "foreground": "#bfc0bf"
-                }
-            },
-            {
-                "scope": "variable.other.constant",
-                "settings": {
-                    "foreground": "#bfc0bf"
-                }
-            },
-            {
-                "scope": "variable.other.property",
-                "settings": {
-                    "foreground": "#bfc0bf"
-                }
-            },
-            {
-                "scope": "variable.other.object.access",
-                "settings": {
-                    "foreground": "#bfc0bf"
-                }
-            },
-            {
-                "scope": "variable.other.member.c",
-                "settings": {
-                    "foreground": "#bfc0bf"
+                    "foreground": "#61aaed"
                 }
             },
             {
@@ -163,6 +127,66 @@
                 "scope": "variable.other.enummember",
                 "settings": {
                     "foreground": "#6aaf68"
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.global",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.local",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.member",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.property",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.object.access",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.makefile",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.readwrite",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.assignment.shell",
+                "settings": {
+                    "foreground": "#bfc0bf"
+                }
+            },
+            {
+                "scope": "variable.other.normal.shell",
+                "settings": {
+                    "foreground": "#bfc0bf"
                 }
             },
             {
@@ -540,10 +564,12 @@
     "editor.guides.indentation": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.definitionLinkOpensInPeek": true,
-    "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.inheritEnv": false,
     "java.inlayHints.parameterNames.enabled": "none",
     "markdown-preview-github-styles.colorTheme": "light",
-    "editor.detectIndentation": false,
     "editor.formatOnSave": true,
+    "cmake.configureOnOpen": false,
+    "cmake.showOptionsMovedNotification": false,
+    "C_Cpp.clang_format_path": "/opt/homebrew/bin/clang-format",
+    "C_Cpp.formatting": "clangFormat"
 }
